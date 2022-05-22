@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 705507994}
+  m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -467,15 +467,11 @@ MonoBehaviour:
   size: {x: 10, y: 3}
   startPos: 1
   rooms:
-  - room: {fileID: 8071563674806754612, guid: 35ca12137fc3b534fbb64d610e6e7eb4, type: 3}
+  - room: {fileID: 8071563674806754612, guid: ffdae0b75fd960b40a11b0f118d3c6f9, type: 3}
     minPosition: {x: 0, y: 0}
     maxPosition: {x: 0, y: 0}
     obligatory: 0
-  - room: {fileID: 8071563674806754612, guid: 05ffd54ab5d5e3b42b7fe6eb8adf03e1, type: 3}
-    minPosition: {x: 0, y: 0}
-    maxPosition: {x: 0, y: 0}
-    obligatory: 0
-  offset: {x: 10, y: 10}
+  offset: {x: 16, y: 16}
 --- !u!4 &1313081633
 Transform:
   m_ObjectHideFlags: 0
